@@ -76,18 +76,28 @@ img {
 
 .grid-container {
   min-height: 100vh;
-  grid-template-columns: 350px auto;
-  grid-template-areas: "logo header"
-                       "aside main"
-                       "footer footer";
-  grid-auto-rows: auto 1fr auto;
+  grid: "picture header"
+        "aside main" 1fr
+        "footer footer"
+        / 350px auto;
   display: grid;
 }
 
-.logo {
+@media (max-width: 480px) {
+  .grid-container {
+    grid: "header"
+          "main"
+          "picture"
+          "aside"
+          "footer"
+          / auto;
+  }
+}
+
+.picture {
   background: var(--background);
   border-right: 1px solid var(--border);
-  grid-area: logo;
+  grid-area: picture;
 }
 
 header {
