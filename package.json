@@ -1,0 +1,19 @@
+{
+  "name": "cv-david-rondio",
+  "version": "1.0.0",
+  "description": "cv",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel {src/*.html,src/**/*.html}",
+    "build": "parcel build {src/*.html,src/**/*.html}",
+    "clear": "rm -rf .parcel-cache dist",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  }
+}
