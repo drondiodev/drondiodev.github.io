@@ -103,7 +103,7 @@ img {
 header {
   background: linear-gradient(to right, var(--primary), var(--light));
   text-align: center;
-  color: var(--hint);
+  color: #999;
   flex-direction: column;
   grid-area: header;
   justify-content: center;
@@ -118,14 +118,14 @@ header {
 }
 
 header .header-title {
-  font-size: 9.7em;
+  font-size: 6em;
 }
 
-header .js {
-  font-size: 1.15em;
+header h1 {
+  font-size: 1.5em;
 }
 
-header p {
+header h2 {
   letter-spacing: 3.5rem;
   font-weight: 300;
   line-height: 13rem;
@@ -228,7 +228,6 @@ main .slogan i {
 
 main .presentation {
   text-indent: 3%;
-  text-align: justify;
   font-style: italic;
 }
 
