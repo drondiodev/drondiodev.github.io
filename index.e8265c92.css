@@ -217,14 +217,6 @@ aside .soft-skills ul {
   list-style: circle;
 }
 
-aside .print_section {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 5rem;
-  display: flex;
-}
-
 main {
   grid-area: main;
   padding: 5rem;
