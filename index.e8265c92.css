@@ -74,6 +74,23 @@ img {
   overflow: hidden !important;
 }
 
+.icon_print {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.icon_print:hover {
+  color: #fff;
+  background: #666;
+}
+
+.icon_print:active {
+  background: #000;
+}
+
 .grid-container {
   min-height: 100vh;
   grid: "picture header"
@@ -198,6 +215,14 @@ aside .soft-skills ul {
   margin: 2rem 0;
   padding-left: 4rem;
   list-style: circle;
+}
+
+aside .print_section {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+  display: flex;
 }
 
 main {
