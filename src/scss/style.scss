@@ -139,12 +139,15 @@ main {
 
     .slogan {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         font-family: var(--font-family2);
 
         h2 {
-            font-size: 5rem;
+            font-size: 4rem;
             color: var(--text);
+            margin-top: 2rem;
+            margin-bottom: 2rem;
         }
 
         i {
