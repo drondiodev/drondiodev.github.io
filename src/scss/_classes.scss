@@ -1,10 +1,12 @@
 .title {
     &-small {
+        text-transform: uppercase;
         letter-spacing: 0.5rem;
         font-size: 1.7rem;
     }
 
     &-small-2 {
+        margin-top: 6rem;
         letter-spacing: 0.15rem;
         font-size: 1.7rem;
     }
