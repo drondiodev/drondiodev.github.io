@@ -37,12 +37,14 @@ img {
 }
 
 .title-small {
+  text-transform: uppercase;
   letter-spacing: .5rem;
   font-size: 1.7rem;
 }
 
 .title-small-2 {
   letter-spacing: .15rem;
+  margin-top: 6rem;
   font-size: 1.7rem;
 }
 
@@ -159,6 +161,10 @@ aside .contact-block {
   margin-bottom: 10rem;
 }
 
+aside .contact-block h2 {
+  text-transform: uppercase;
+}
+
 aside .contact-block h3 {
   margin-bottom: 0;
   font-size: 1.4rem;
@@ -201,12 +207,12 @@ aside .skills-block p {
   font-style: italic;
 }
 
-aside .skills-block h3 {
+aside .skills-block h2, aside .skills-block h3 {
   text-transform: uppercase;
 }
 
 aside .front-end, aside .back-end, aside .tools {
-  padding-top: 1.3rem;
+  padding-top: .3rem;
   padding-bottom: 1.3rem;
   display: flex;
 }
